@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<head>
+    <title>CarRental-Online</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo"><span>Car</span>Rental</a>
+        <nav class="navbar">
+            <a href="#home">Home</a> 
+            <a href="#ride">Ride</a> 
+            <a href="#list of cars">List of Cars</a>
+            <a href="#about us">About us</a> 
+            <a href="#contact us">Contact us</a> 
+        </nav>
+
+        <div id="login-btn">
+            <button class="btn">Login</button>
+            <i class="far fa-user"></i>
+        </div>
+    </header>
+       
+    <div class="login-form-container">
+
+        <span class="fas fa-times" id="close-login-form"></span>
+
+        <form action="">
+            <h3>User Login</h3>
+            <input type="email" placeholder="Email" class="box">
+            <input type="password" placeholder="Password" class="box">
+            <p>Forgot your password?<a href="#"> Click here</a></p> 
+            <input type="submit" value="Login now" class="btn">
+            <p>Or login with</p>
+            <div class="buttons">
+                <a href="#" class="btn">Google</a>
+                <a href="#" class="btn">Facebook</a>
+            </div>
+            <p>Don't have an account? <a href="#"> Create one</a></p>
+        </form>
+    </div>
+    
+   <section class="home swiper" id="home">
+        <!--Slide 1-->
+        <div class="swiper-wrapper">
+          <div class="swiper-slide container">
+          <div class="home-text">
+            <span>CarRental - delivered to your door</span>
+            <h1>Car delivers and returns can <br> be made at your hotel or<br> any location.</h1>
+            <a href="#" class="btn1"> Rent Now </a>
+          </div>
+          <img src="images/gray-honda.png" alt="">
+          </div>
+          
+          <!--Slide 2-->
+          <div class="swiper-slide container">
+            <div class="home-text">
+              <span>CarRental - delivered to your door</span>
+              <h1>Car delivers and returns can <br> be made at your hotel or <br> any location.</h1>
+              <a href="#" class="btn1"> Rent Now </a>
+            </div>
+            <img src="images/red-honda.png" alt="">
+            </div>
+
+        </div>
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        
+      </div>
+   </section>
+  
+   <!--Ride-->
+   <section class="ride" id="ride">
+      <div class="heading">
+         <span>How It Works</span>
+         <h1>Rent with 3 easy steps</h1>
+    </div>
+    <div class="ride-container">
+      <div class="box">
+        <i class='bx bxs-map'></i>
+        <h2>Choose A Location</h2>
+        <p>Visiting places in Kosovo and you need a car? Take your pick from thousands of our cars and vans across Kosovo. Use the map to find CarRental near you.</p>
+      </div>
+    </div>
+
+    <div class="box">
+      <i class='bx bx-calendar-check'></i>
+      <h2>Pick-Up Date</h2>
+      <p>Visiting places in Kosovo and you need a car? Take your pick from thousands of our cars and vans across Kosovo. Use the map to find CarRental near you.</p>
+    </div>
+
+    <div class="box">
+      <i class='bx bxs-calendar-star'></i>
+      <h2>Book A Car</h2>
+      <p>Visiting places in Kosovo and you need a car? Take your pick from thousands of our cars and vans across Kosovo. Use the map to find CarRental near you.</p>
+    </div>
+   </section>
+
+
+
+
+
+
+    <!--Swiper JS-->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <!--Link to JS-->
+    <script src="script.js"></script>
+</body>
+</html>
