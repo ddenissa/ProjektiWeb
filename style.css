@@ -246,7 +246,34 @@ body{
     display: grid;
     align-items: center;
     grid-template-columns: repeat(auto-fit,minmax(250px,auto));
-    gap: 1rem;
+    gap: 0.5rem;
     margin-top: 2rem;
+    border: black;
 }
 
+.ride-container .box{
+    text-align: center;
+    padding: 50px;
+}
+
+.ride-container .box h2{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1.4rem 0 0.5rem;
+}
+
+.ride-container .box p{
+    font-size: 1.5rem;
+}
+
+.box3{
+    background: lightgrey;
+}
+
+.box4{
+    background: lightgrey;
+}
+
+.box5{
+    background: lightgrey;
+}
