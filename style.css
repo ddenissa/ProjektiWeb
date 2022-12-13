@@ -278,7 +278,6 @@ body{
     background: lightgrey;
 }
 
-
 .listofcars{
 max-width: 968px;
 margin-left: auto;
@@ -290,7 +289,7 @@ margin-right: auto;
     grid-template-columns: 560px;
     gap: 1.5rem;
     margin-top: 8rem;
-    transform: translate(100px);
+    transform: translate(180px);
 }
 
 .listofcars-container .box{
