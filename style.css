@@ -335,3 +335,39 @@ margin-right: auto;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+.about_us{
+    max-width:968px;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(21rem,auto));
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.about_us img{
+    width: 100%;
+}
+.about-text span{
+    font-weight: 1000;
+    text-transform: uppercase;
+    color: black;
+    font-size: 25px;
+    
+}
+
+.about-text p{
+    margin: 0.5 rem 0 1rem;
+    font-size: 15px;
+}
