@@ -1,4 +1,4 @@
-/*let navbar = document.querySelector('.navbar');
+let navbar = document.querySelector('.navbar');
 
 document.querySelector('#login-btn').onclick = ()=>{
     document.querySelector('.login-form-container').classList.toggle('active');
@@ -28,7 +28,7 @@ var swiper = new Swiper(".home", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });*/
+  });
 
 
   
