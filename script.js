@@ -1,4 +1,4 @@
-let navbar = document.querySelector('.navbar');
+/*let navbar = document.querySelector('.navbar');
 
 document.querySelector('#login-btn').onclick = ()=>{
     document.querySelector('.login-form-container').classList.toggle('active');
@@ -17,6 +17,8 @@ window.onscroll = () =>{
     }else{
         document.querySelector('.header').classList.remove('active');
     }
+
+    
 }
 
 var swiper = new Swiper(".home", {
@@ -26,7 +28,9 @@ var swiper = new Swiper(".home", {
       nextEl: ".swiper-button-next",
       prevEl: ".swiper-button-prev",
     },
-  });
+  });*/
 
 
   
+
+
