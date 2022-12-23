@@ -17,19 +17,7 @@ window.onscroll = () =>{
     }else{
         document.querySelector('.header').classList.remove('active');
     }
-
-    /*navbar.classList.remove('active');*/
 }
-
-/*window.onload = () =>{
-    if(window.scrollY > 0){
-        document.querySelector('.header').classList.add('active');
-    }else{
-        document.querySelector('.header').classList.remove('active');
-    }
-
-   
-}*/
 
 var swiper = new Swiper(".home", {
     spaceBetween: 30,
@@ -39,3 +27,6 @@ var swiper = new Swiper(".home", {
       prevEl: ".swiper-button-prev",
     },
   });
+
+
+  
