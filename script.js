@@ -61,7 +61,6 @@ var swiper = new Swiper(".home", {
 
     console.log(email);
     console.log(password);
-    //test
 }
 
   
